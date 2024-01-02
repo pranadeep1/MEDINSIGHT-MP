@@ -10,3 +10,7 @@ body{
     background-color: black;
     color: white;
 }
+button {
+    background-color: rgb(209, 170, 245);
+    color: aliceblue;
+}
