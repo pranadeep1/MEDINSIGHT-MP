@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+    background-size: cover;
+    height:100vh;
+}
+.navbar-brand,.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    background-color: black;
+    color: white;
+}
