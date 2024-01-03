@@ -6,6 +6,44 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+      
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    </style>
 </head>
 <body background="https://vistapointe.net/images/medicine-5.jpg">
 
@@ -36,10 +74,12 @@
           </div>
         </div>
       </nav>
-      <h1>          AVAILABLE MEDICINES IN HOSPITAL        </h1>
-      <h3>   DEPARTMENT OF CARDIOLOGY : <button onclick="location.href='cardiology.pdf';">cardiology medicines</button></h1>
-        <h3> DEPARTMENT OF NUEUROLOGY : <button onclick="location.href='nuerology.png';"> nuerology medicines</button></h1>
-          <h3> DEPARTMENT OF GASTROENTROLOGY : <button onclick="location.href='gastoentrology.png';">gastroentrology medicines</button></h1>
-            <h3> DEPARTMENT OF ORTHOPEDICS : <button onclick="location.href='orthopedics.png';">orthopedics medicines</button></h1>
-              <h3> DEPARTMENT OF GYNECOLOGY : <button onclick="location.href='gynecology.png';">gynecology medicines</button></h1>
-                <h3> DEPARTMENT OF DERMATOLOGY : <button onclick="location.href='dermatology.png';">dermatology medicines</button></h1>
+      <div class="container">
+        <h1>AVAILABLE MEDICINES IN HOSPITAL</h1>
+        <h3><span class="bullet"></span> DEPARTMENT OF CARDIOLOGY: <button onclick="location.href='cardiology.pdf';">Cardiology Medicines</button></h3>
+        <h3>DEPARTMENT OF NEUROLOGY: <button onclick="location.href='neurology.png';">Neurology Medicines</button></h3>
+        <h3>DEPARTMENT OF GASTROENTEROLOGY: <button onclick="location.href='gastroenterology.png';">Gastroenterology Medicines</button></h3>
+        <h3>DEPARTMENT OF ORTHOPEDICS: <button onclick="location.href='orthopedics.png';">Orthopedics Medicines</button></h3>
+        <h3>DEPARTMENT OF GYNECOLOGY: <button onclick="location.href='gynecology.png';">Gynecology Medicines</button></h3>
+        <h3>DEPARTMENT OF DERMATOLOGY: <button onclick="location.href='dermatology.png';">Dermatology Medicines</button></h3>
+    </div>
